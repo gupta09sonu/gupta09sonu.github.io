@@ -4,12 +4,12 @@ body{
 }
 .main-header{
 	color: white;
-	background: white url('../images/Grass.jpg') no-repeat scroll center;
+	background: white url('images/Grass.jpg') no-repeat scroll center;
 	padding: 12px;
 	text-align: right;
 }
 .main-nav{
-	background: white url('../images/image5.jpeg') no-repeat scroll top;
+	background: white url('images/image5.jpeg') no-repeat scroll top;
 	/*padding: 14px 25px;	*/
 	box-shadow: 0 0 10px black;
 }
