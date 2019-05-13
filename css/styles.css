@@ -1,75 +1,79 @@
 body{
-    font-family: Arial, sans-serif;
-    margin: 0;
+	font-family: arial, sans-serif;
+	margin: 0px;
 }
-
-/* -------------- Main Header -------------- */
 .main-header{
-    background: white url("../images/image5.jpeg") no-repeat scroll center;
-    padding: 12px;
-    color: white;
-    text-align: right;
+	color: white;
+	background: white url('../images/Grass.jpg') no-repeat scroll center;
+	padding: 12px;
+	text-align: right;
 }
-
-/* ----------------- Main Navigation --------------- */
 .main-nav{
-    background-color: black;
-    padding: 5px;
-    box-shadow: 0 0 10px black;
+	background: white url('../images/image5.jpeg') no-repeat scroll top;
+	/*padding: 14px 25px;	*/
+	box-shadow: 0 0 10px black;
 }
 .main-nav a{
-    color: white;
-    text-decoration: none;
-    padding: 10px 25px;
-    display: inline-block;
+	color: white;
+	text-decoration: none;
+	/*margin: 10px;*/
+	padding: 14px 25px;
+	font-size: 20px;
+	display: inline-block;
 }
 .main-nav a:hover{
-    background-color: #964e40;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 10px;
 }
 .main-nav a.active{
-    background-color: darkred;
+	background: linear-gradient(60deg, darkred, red, coral);
+	border-radius: 0px;
 }
 
-/* ------------- Home News Section ---------------- */
+/*Home News Section*/
+
 .home-news-section{
-    text-align: center;
+	text-align: center;
 }
-.home-news-article{
-    border: 2px solid darkred;
-    width: 330px;
-    text-align: center;
-    display: inline-grid;
-    height: 500px;
-    margin: 10px;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    padding: 10px;
-    transition: all 0.5s;
+.home-news-artical h2{
+	color: darkred;
+	font-size: 20px;
+
 }
-.home-news-article:hover{
-    width: 340px;
-    box-shadow: 0 0 10px darkred;
-    cursor: pointer;
+.home-news-artical{
+	width: 330px;
+	border: 2px solid darkred;
+	text-align: center;
+	height: 500px;
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 30px;
+	padding: 10px;
+	margin: 10px;
+	display: inline-grid;
+	transition: all 0.5s linear;
 }
-.home-news-article h2{
-    color: darkred;
+.home-news-artical:hover{
+	width: 340px;
+	box-shadow: 0 0 10px darkred;
+	cursor: pointer;
 }
-.home-news-article img{
-    width: 100%;
+.home-news-artical img{
+	width: 100%;
 }
 
-/* ------------------ Main News Section ---------------- */
+/*Main News Section*/
+
 .main-news-section{
-    width: 1100px;
-    margin: auto;
+	width: 1100px;
+	margin: auto;
 }
-.main-news-article h2{
-    background: linear-gradient(45deg,#964e40,black,#964e40);
-    color: white;
-    text-align: center;
-    padding: 10px;
-    border-radius: 50px;
-    box-shadow: 0 0 10px darkred;
+.main-news-section h2{
+	background: linear-gradient(60deg, #964e40,black,#964e40);
+	padding: 10px;
+	text-align: center;
+	border-radius: 50px;
+	box-shadow: 0 0 10px darkred;
+	color: white;
 }
 .main-news-article p{
     font-size: 18px;
@@ -77,158 +81,174 @@ body{
     color: #964e40;
 }
 .zoom{
-    width: 600px;
-    height: 350px;
-    margin: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px darkred;
-    overflow: hidden;
+	width: 600px;
+	height: 350px;
+	margin: auto;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 0 10px darkred;
 }
 .zoom img{
-    width: inherit;
-    height: inherit;
-    border-radius: 10px;
-    box-shadow: 0 0 10px darkred;
-    transition: all 0.5s;
+	width: inherit;
+	height: inherit;
+	transition: all 0.5s linear;
 }
 .zoom:hover img{
-    transform: scale(1.2,1.2);
+	transform: scale(1.2,1.2);
 }
 
-/* ------------------- Main Footer -------------- */
+
+/*Main Footer*/
 .main-footer{
-    background: linear-gradient(45deg,#964e40,black,#964e40);
-    padding: 12px;
-    text-align: center;
-    color: white;
-    box-shadow: 0 0 10px darkred;
+	background: linear-gradient(45deg,#964e40,black,#964e40);
+	text-align: center;
+	padding: 12px;
+	color: white;
+	box-shadow: 0 0 10px darkred;
 }
 .main-footer a{
-    color: orange;
+	color: orange;
 }
 
-/* --------------- Gallery Section --------------- */
+
+/*Gallery Sextion*/
 .gallery-section{
-    text-align: center;
-    margin: 10px auto;
+	text-align: center;
+	margin: 10px auto;
 }
 .gallery-figure{
-    border: 2px solid darkred;
-    width: 300px;
-    margin: 5px;
-    display: inline-block;
-    padding: 5px;
-    border-radius: 10px;
+	border: 2px solid darkred;
+	width: 300px;
+	margin: 5px;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 10px;
 }
 .gallery-figure:hover{
-    box-shadow: 0 0 10px darkred;
-    cursor: pointer;
+	box-shadow: 0 0 10px darkred;
+	cursor: pointer;
 }
 .gallery-zoom{
-    width: 300px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 10px;
 }
 .gallery-zoom img{
-    width: inherit;
-    height: inherit;
-    border-radius: 10px;
-    transition: all 0.5s;
+	width: inherit;
+	height: inherit;
+	border-radius: 10px;
+	transition: all 0.5s linear;
+
 }
 .gallery-zoom:hover img{
-    transform: scale(1.2,1.2);
-}
-.gallery-figure figcaption{
-    color: darkred;
-    padding: 10px;
+	transform: scale(1.2,1.2);
 }
 
-/* --------------- About Us ---------------- */
+/*Abouts Us Section*/
 .about-section{
-    width: 1100px;
-    margin: auto;
+	width: 1100px;
+	margin: auto;
 }
 .about-article{
-    background: white url("../images/gallery_mobile_3.jpg") no-repeat scroll top;
-    color: white;
-    padding: 15px;
-    margin: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    box-shadow: 0 0 10px black;
-}
-.company-images-article{
-    text-align: center;
-}
-.company-images-article img{
-    width: 250px;
-    height: 150px;
-    margin: 5px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    box-shadow: 0 0 5px black;
+	background: white url('../images/image5.jpeg') no-repeat scroll top;
+	padding: 15px;
+	margin: 20px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	color: white;
+	text-shadow: 0 0 10px black;
+	box-shadow: 0 0 10px black;
 }
 
-/* --------------- Contact Section ---------------- */
-.contact-section{
-    background: white url("../images/image5.jpeg") no-repeat bottom;
-    padding: 20px;
+/*Company Images Article*/
+.company-images-article{
+
+	text-align: center;
+	margin-bottom: 50px;
+	/*display: inline-block;*/
+	/*margin: auto;*/
 }
-.contact-article{
-    width: 250px;
-    text-align: center;
-    margin: auto;
-    background-color: rgba(0,0,0,0.5);
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px black;
+.company-images-article img{
+	width: 250px;
+	height: 150px;
+	transition: all 0.5s linear;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	margin: 5px;
+	/*display: inline-block;*/
+}
+.company-images-article img:hover{
+	width: 280px;
+	height: 160px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	box-shadow: 0 0 10px darkred;
+}
+
+
+
+/*Contact Section*/
+.contact-section{
+	background: white url("../images/image5.jpeg") no-repeat bottom;
+	padding: 20px;
 }
 .contact-article h2{
-    color: white;
+	color: white;
+}
+.contact-article{
+	width: 250px;
+	margin: 10px auto;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px black;
 }
 .input-field{
-    font-size: 18px;
-    text-align: center;
-    border: none;
-    outline: none;
-    margin: 5px;
-    height: 35px;
-    width: 200px;
-    background: transparent;
-    border-bottom: 3px solid #514640;
-    color: white;
-}
-textarea{
-    border: 3px solid #514640;
-    outline: none;
-    background: transparent;
-    margin: 5px;
-    border-radius: 10px;
-    width: 180px;
-}
-textarea:focus{
-    border: 3px solid #bca487;
-}
-::placeholder{
-    color: lightgray;
+	margin: 10px;
+	/*padding: 2px 25px;*/
+	text-align: center;
+	font-size: 18px;
+	border: none;
+	border-bottom: 3px solid #514640;
+	outline: none;
+	background-color: transparent;
+	color: white;
+
 }
 .input-field:focus{
-    border-bottom: 3px solid #bca487;
+	border-bottom: 3px solid #bca487;
+}
+textarea{
+	background-color: transparent;
+	color: white;
+	font-size: 16px;
+	outline: none;
+	border: 3px solid #514640;
+}
+textarea:focus{
+	border: 3px solid #bca487;
 }
 #submit-btn{
-    background-color: #514640;
-    color: white;
-    border: none;
-    font-size: 18px;
-    padding: 10px 50px;
-    box-shadow: 0 0 10px black;
-    border-radius: 50px;
-    margin: 10px;
-    outline: none;
+	font-size: 19px;
+	color: white;
+	padding: 14px 25px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	background-color: #514640;
 }
 #submit-btn:hover{
     background-color: #bca487;
     color: black;
     cursor: pointer;
 }
+::placeholder{
+	color:white;
+};
+
+
+/*Media Query*/
+ 
+ /*Toggle Menu Button*/
